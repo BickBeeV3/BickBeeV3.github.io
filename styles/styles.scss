@@ -8,13 +8,46 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #eaa4ff;
+}
+
+#middle-section {
+    align-items: center;
+    justify-content: center;
+}
+
+#name {
+    width: 30vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#difficulty {
+    width: 30vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: horizontal;
 }
 
 #bigbox {
-    width: 60vh;
-    height: 60vh;
+    width: 30vw;
+    height: 30vw;
     display: flex;
     flex-direction: column;
+}
+
+#score {
+    width: 35vw;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 img {
@@ -58,10 +91,6 @@ img {
     border-left-style: none;
 }
 
-#box4 {
-
-}
-
 #box5 {
     border-right-style: none;
 }
@@ -80,3 +109,44 @@ img {
     border-right-style: none;
 }
 
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, monospace;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, monospace;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, monospace;
+}
+
+button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, monospace;
+    font-weight: 0; 
+    font-size: 14px; 
+    color: #fff; 
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%); 
+    padding: 10px 50px; 
+    border: none; 
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px; 
+    border-radius: 50px; 
+    transition : 1000ms; 
+    transform: translateY(0); 
+}
+    
+button:hover { 
+    transition : 1000ms; 
+    transform : translateY(-6px); 
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%); 
+    color: #ffffff; 
+    border: none;
+    cursor: pointer;
+}
+   
+#text {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
