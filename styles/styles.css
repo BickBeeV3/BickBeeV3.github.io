@@ -8,7 +8,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #eaa4ff;
+  background-image: linear-gradient(rgb(189, 2, 236), rgb(22, 223, 223));
 }
 
 #middle-section {
