@@ -131,7 +131,7 @@ function detectEOG(copy) {
         setTimeout(function(){
             alert("Game Over! The Result Is a Tie!");
             clearBoard();
-         }, 300);
+         }, 150);
          return true;
     }
     return false;
@@ -180,7 +180,7 @@ for (let i = 0; i < images.length; ++i) {
                                 detectEOG(moves);
                                 turn_heading.innerHTML = "Player's Turn"
                                 pause = false;
-                            }, 200);
+                            }, 150);
                         } else if (play_bot == 2) {
                             turn_heading.innerHTML = "BOT's Turn"
                             setTimeout(function(){
@@ -188,7 +188,7 @@ for (let i = 0; i < images.length; ++i) {
                                 detectEOG(moves);
                                 turn_heading.innerHTML = "Player's Turn"
                                 pause = false;
-                            }, 200);
+                            }, 150);
                         }
                     }
                 } else if (current_move == "O") {
